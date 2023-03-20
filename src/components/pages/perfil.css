@@ -1,0 +1,144 @@
+.perfil .bg-area .bg-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.perfil-img-area {
+  padding: 0.25rem;
+  border-radius: 9999px;
+  width: 140px;
+  height: 140px;
+
+  margin-top: -80px;
+  margin-left: 1rem;
+
+  background-color: #fff;
+  position: relative;
+}
+
+.perfil-img-area .perfil-img {
+  border-radius: 9999px;
+  height: 100%;
+  width: 100%;
+}
+
+.perfil-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.edit {
+  background: transparent;
+  font-weight: 500;
+  border: 2px solid #e4e4e4;
+  font-size: 1rem;
+
+  border-radius: 30px;
+  height: 40px;
+  padding: 0 1rem;
+
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.edit:hover {
+  background-color: #f8f8f8;
+}
+
+.perfil-description {
+  padding: 1.5rem 1.25rem;
+}
+
+.perfil-description h2 {
+  font-size: 20px;
+}
+
+.perfil-description .text p {
+  opacity: 0.7;
+  margin-top: 0.2rem;
+  font-size: 15px;
+}
+
+.perfil-description h3 {
+  margin-top: 1.2rem;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.perfil-localization {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.perfil-localization p {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+.perfil-localization p span {
+  font-size: 20px;
+  margin-right: 0.2rem;
+}
+
+.follow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  margin-top: 1rem;
+}
+
+.follow span {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.follow span p {
+  opacity: 0.7;
+  font-weight: 300;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1rem;
+  font-weight: 700;
+
+  border-bottom: 1px solid #e4e4e4;
+
+  margin-top: 1.4rem;
+
+  padding: 0.5rem 0;
+}
+
+.nav a {
+  padding: 0.6rem 0;
+  position: relative;
+  opacity: 0.7;
+}
+
+nav a.active {
+  opacity: 1;
+}
+
+.nav a.active::after {
+
+  display: block;
+  content: '';
+  height: 5px;
+  width: 100%;
+  background-color: var(--twitter-blue);
+  border-radius: 10px;
+
+  position: absolute;
+  bottom: -8px;
+}

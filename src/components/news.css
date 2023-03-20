@@ -1,0 +1,100 @@
+.news .search-area {
+  padding: 0.5rem 1rem;
+}
+
+.news .cards {
+  padding: 0.5rem 1rem;
+
+}
+
+
+
+.news .cards .card {
+  padding-top: 1rem;
+
+  background-color: #F7F9F9;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.news-title,
+.news-tweet {
+  font-size: 0.875rem;
+  opacity: 0.7;
+}
+
+.news-title {
+  line-height: 1rem;
+}
+
+.news-list li {
+  padding: 1rem;
+}
+
+.news-list li:hover {
+  background-color: #e4e4e4;
+}
+
+.news-tweet {
+  margin-top: 0.2rem;
+}
+
+.news-subtitle-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2rem;
+}
+
+.news-subtitle {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.news-subtitle-area span {
+  font-size: 26px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.news-list-follow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.follow-area {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.follow-area .follow-image {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 624.9375rem;
+}
+
+.follow-area h2 {
+  font-size: 0.9375rem;
+}
+
+.follow-area p {
+  opacity: 0.7;
+  font-size: 0.9375rem;
+}
+
+.news-list-follow button {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-weight: 900;
+  font-size: 14px;
+  height: 35px;
+  width: 75px;
+  border-radius: 100px;
+  border: 0;
+}
