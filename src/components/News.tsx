@@ -29,9 +29,9 @@ const News = () => {
           <h2 className='card-title' >Who to follow</h2>
 
           <ul className='news-list'>
-            <Follow image='https:github.com/maykbrito.png' name='Mayk' nick='@maykbrito' />
-            <Follow image='https:github.com/diego3g.png' name='Diego' nick='@diego3g' />
-            <Follow image='https:github.com/birobirobiro.png' name='João' nick='@birobirobiro' />
+            <Follow image='https://github.com/maykbrito.png' name='Mayk' nick='@maykbrito' />
+            <Follow image='https://github.com/diego3g.png' name='Diego' nick='@diego3g' />
+            <Follow image='https://github.com/birobirobiro.png' name='João' nick='@birobirobiro' />
           </ul>
 
         </div>
