@@ -12,7 +12,7 @@
 .news .cards .card {
   padding-top: 1rem;
 
-  background-color: #F7F9F9;
+  background: rgba(0, 0, 0, 0.09);
   border-radius: 0.5rem;
   margin-bottom: 1.5rem;
 }
@@ -37,7 +37,7 @@
 }
 
 .news-list li:hover {
-  background-color: #e4e4e4;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .news-tweet {

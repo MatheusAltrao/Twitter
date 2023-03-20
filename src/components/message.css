@@ -7,7 +7,7 @@
 }
 
 .message:hover {
-  background-color: #f8f8f8;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .message img {

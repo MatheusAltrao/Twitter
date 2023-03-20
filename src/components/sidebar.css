@@ -53,7 +53,7 @@
 }
 
 .main-navigation a:hover {
-  background-color: #f8f8f8;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .main-navigation a.active {

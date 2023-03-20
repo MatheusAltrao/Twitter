@@ -23,7 +23,10 @@ body {
 
 body.dark {
   color: #fff;
+
   background: #15202B;
+
+  --text-color: #fff;
 }
 
 

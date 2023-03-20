@@ -4,29 +4,29 @@
 
   display: flex;
 
-  gap:1rem;
+  gap: 1rem;
 }
 
-.notfication:hover{
-  background-color:#f8f8f8;
+.notfication:hover {
+  background: rgba(0, 0, 0, 0.2);
 }
 
-.notfication-icon{
-  color:var(--twitter-blue);
-  font-size:2rem;
+.notfication-icon {
+  color: var(--twitter-blue);
+  font-size: 2rem;
 }
 
-.notfication-person img{
-  width:40px;
-  border-radius:9999px;
-  margin-bottom:0.7rem;
+.notfication-person img {
+  width: 40px;
+  border-radius: 9999px;
+  margin-bottom: 0.7rem;
 }
 
-.notification-title{
-  font-size:1rem;
-  margin-bottom:1.5rem;
+.notification-title {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
 }
 
-.notification-description{
-  opacity:0.6;
+.notification-description {
+  opacity: 0.6;
 }
